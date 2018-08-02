@@ -12,6 +12,7 @@ package main
 import (
 	"fmt"
 	"image"
+	_ "image/gif" // register gif decoder
 	"image/jpeg"
 	_ "image/png" // register PNG decoder
 	"io"
